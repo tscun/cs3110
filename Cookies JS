@@ -84,7 +84,7 @@ function checkCookie() {
            setCookie("username", user, 30);
        }
     }
-    window.location = ('https://027134ee55444364a2fa551e218cc96f.vfs.cloud9.us-east-2.amazonaws.com/_static/Deliverable%201/Deliverable%201.html');
+    window.location = ('Landing.html');
     
 }
 
