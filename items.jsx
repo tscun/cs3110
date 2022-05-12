@@ -10,17 +10,17 @@ class Items extends Component {
     items : [ 
      {
        id: 1,
-       value: "item 1",
+       value: "Deliverable 1",
        isDone: false
      },
      {
       id: 2,
-      value: "item 2",
+      value: "Deliverable 2",
       isDone: true
      },
      {
       id: 3, 
-      value: "item 3",
+      value: "Deliverable 3",
       isDone: false
      }
     ]
