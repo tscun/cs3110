@@ -6,7 +6,7 @@ import Items from './items';
     render(){
     return (
       <div className="container">
-      <h1 className="text-center">Our List of stuff...</h1>
+      <h1 className="text-center">Tommy's CIS 3110 TO DO List.</h1>
       <Items />
       </div>
     );
