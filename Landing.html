@@ -57,19 +57,26 @@ function checkCookie()
 { 
     var user = getCookie("username"); //username is cookiename set by me
     if(user != ""){
-        alert("Authenticated ");
+        alert("Authenticated Welcome Back ");
     }else
     {
         x.innerHTML = 'Welcome back... content follows';
+        
     }
+    
 }
+  
+  
+  function movePage()
+  {
+    window.location = 'https://027134ee55444364a2fa551e218cc96f.vfs.cloud9.us-east-2.amazonaws.com/_static/Deliverable%201/Deliverable%201.html'; //you determine the name of the page where you go next
+
+  }
+  //3. once you've set the cookie, 'authenticated', window.locatoin = nextPage.html 
 //read the cookie, 'authenticated' once we go to the landing page
-
-
 
 </script>
 
-<li><a href= 'https://027134ee55444364a2fa551e218cc96f.vfs.cloud9.us-east-2.amazonaws.com/_static/Deliverable%201/Deliverable%201.html' title='Link to Site?'> index page</a>
 </head>
 <body onload="checkCookie()">
 
